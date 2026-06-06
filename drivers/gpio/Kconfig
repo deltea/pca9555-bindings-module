@@ -1,8 +1,3 @@
-menuconfig CONFIG_GPIO_PCA
-    bool "PCA9555 GPIO expander support"
-    default y
-    depends on GPIO
-    depends on I2C
-    help
-      Enable driver for NXP PCA9555 I2C GPIO expander.
+config CONFIG_GPIO_PCA
+  default y
 
