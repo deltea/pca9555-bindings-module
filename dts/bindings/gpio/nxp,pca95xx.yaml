@@ -1,0 +1,29 @@
+description: NXP PCA9555 I2C GPIO Expander
+
+compatible: "nxp,pca95xx"
+
+include: [gpio-controller.yaml, i2c-device.yaml]
+on-bus: i2c
+
+properties:
+  reg:
+    type: array
+    required: true
+    description: I2C address of the device (typically 0x20-0x27)
+
+  gpio-controller:
+    type: boolean
+    required: true
+    description: Convey's this node is a GPIO controller
+
+  "#gpio-cells":
+    const: 2
+
+  ngpios:
+    type: int
+    default: 32
+    description: Number of GPIO pins on this expander
+
+gpio-cells:
+  - pin
+  - flags
