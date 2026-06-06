@@ -20,7 +20,7 @@ properties:
     type: int
     required: true
     description: Number of items to expect in a GPIO specifier
-    const: 2
+    const: 0
 
   ngpios:
     type: int
