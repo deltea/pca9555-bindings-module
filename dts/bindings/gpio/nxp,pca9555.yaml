@@ -1,6 +1,6 @@
 description: NXP PCA9555 I2C GPIO Expander
 
-compatible: "nxp,pca95xx"
+compatible: "nxp,pca9555"
 
 include: [gpio-controller.yaml, i2c-device.yaml]
 on-bus: i2c
