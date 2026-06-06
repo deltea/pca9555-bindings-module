@@ -1,3 +1,3 @@
 zephyr_library_amend()
 
-zephyr_library_sources_ifdef(CONFIG_GPIO_PCA gpio_pca95xx.c)
+zephyr_library_sources_ifdef(CONFIG_GPIO_PCA95XX gpio_pca95xx.c)

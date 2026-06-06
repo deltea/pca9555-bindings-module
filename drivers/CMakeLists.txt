@@ -1,1 +1,1 @@
-add_subdirectory_ifdef(CONFIG_GPIO_PCA gpio)
+add_subdirectory_ifdef(CONFIG_GPIO_PCA95XX gpio)
