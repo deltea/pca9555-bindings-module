@@ -1,7 +1,7 @@
 # Delete all unused properties.
 
 # Give your module a name
-name: pca9555_bindings
+name: pca9555_bindings_base
 build:
   # Folder containing a "CMakeLists.txt" (. = root)
   cmake: .
