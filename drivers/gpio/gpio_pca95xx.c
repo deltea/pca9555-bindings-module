@@ -6,7 +6,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#define DT_DRV_COMPAT nxp_pca9555
+#define DT_DRV_COMPAT nxp_pca95xx
 
 /**
  * @file Driver for PCA95XX and PCAL95XX I2C-based GPIO driver.
