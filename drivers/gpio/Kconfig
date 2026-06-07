@@ -1,3 +1,7 @@
+if DT_HAS_NXP_PCA9555_ENABLED
+
 config CONFIG_GPIO_PCA95XX
   bool "PCA9555 GPIO expander support"
   default y
+
+endif
